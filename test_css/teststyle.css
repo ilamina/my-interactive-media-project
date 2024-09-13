@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+		body {
+			background-color: black;
+			color: lightgray;
+		}	
+		
+		.bluebox {
+			background-color: skyblue;
+			height: 200px;
+			width: 200px;
+			border: thick #E13E40 solid;
+			color: #FFF;
+			font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+		}
+		
+			/*This is an ID */
+		#tealbox {
+			background-color: teal;
+			height: 100px;
+			width: 200px;
+			border: thin white solid;
+			color: #FFF;
+		}
+		
+			/*This is a class */
+		.bluebox p{
+			color: red;
+		}
+	
