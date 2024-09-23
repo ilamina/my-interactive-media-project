@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin:0;
+}
+
+
+header, footer {
+	background-color:aqua;
+	width: 100%;
+	padding: 25px; /* Adds 25px of padding to the top, right, bottom, and left */
+	margin-bottom: 50px;
+}
+
+footer {
+	height: 50px;
+	text-align: center;
+	border-top: 10px black solid;
+	margin-top: 50px;
+}
+
+section img {
+	width: 350px;
+}
+
+section {
+	width: 350px;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	border: thin black solid;
+}
+
+header h1, h2 {
+	color: orangered;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+}
+
+nav li a {
+	text-decoration: none;
+}
+
+/*This is where I will start styling using the id selectors*/
+
+p#first {
+	line-height: 1.5;
+}
+
+p#second {
+	padding: 15px;
+}
+
+/*This is where I will start styling using class selectors*/
+.quotename {
+	text-align: right;
+	font-family: cursive;
+	font-size: 18px;
+	font-weight: bolder;
+	margin: 0;
+}
+
+
+/*For the Navigation links*/
+
+/* unvisited link */
+a:link {
+  color: orange;
+}
+
+/* visited link */
+a:visited {
+  color: darkred;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: darkorange;
+}
+
+h1 {
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+
+/* .keepopen {
+	clear: both;
+}
+*/
