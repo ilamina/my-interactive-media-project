@@ -1,3 +1,3 @@
-# Interactive-Media
+## Interactive Media Projects
 
 
